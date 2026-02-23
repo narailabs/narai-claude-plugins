@@ -1,0 +1,13 @@
+{
+  "name": "narai",
+  "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
+  "owner": { "name": "NarAI Labs", "url": "https://github.com/narailabs" },
+  "plugins": [
+    {
+      "name": "browser-qa",
+      "source": "narailabs/claude-browser-qa",
+      "description": "AI-powered QA agent...",
+      "version": "1.0.0"
+    }
+  ]
+}
