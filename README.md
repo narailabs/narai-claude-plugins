@@ -21,7 +21,7 @@ claude plugin:marketplace add narailabs/narai-claude-plugins
 Install a plugin from this marketplace:
 
 ```bash
-claude plugin:install narai/browser-qa
+claude plugin install narailabs/claude-browser-qa
 ```
 
 ## Contributing
