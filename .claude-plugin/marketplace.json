@@ -12,7 +12,7 @@
     {
       "name": "browser-qa",
       "source": {
-        "source": "git",
+        "source": "url",
         "url": "https://github.com/narailabs/claude-browser-qa.git"
       },
       "description": "AI-powered QA agent for browser-based testing and validation",
