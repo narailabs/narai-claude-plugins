@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
