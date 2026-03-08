@@ -20,6 +20,18 @@
       "author": {
         "name": "NarAI Labs"
       }
+    },
+    {
+      "name": "agentic-tdd",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/narailabs/claude-agentic-tdd.git"
+      },
+      "description": "Enforced Test-Driven Development with agent teams — honest tests, blind implementation, adversarial review",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
     }
   ]
 }
