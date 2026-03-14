@@ -16,7 +16,7 @@
         "url": "https://github.com/narailabs/claude-browser-qa.git"
       },
       "description": "AI-powered QA agent that browses your web app, discovers screens and interactive elements, tests CRUD lifecycles, verifies actions, runs permutations, and auto-fixes bugs — targeting 90%+ coverage",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "author": {
         "name": "NarAI Labs"
       }
