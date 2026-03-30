@@ -27,8 +27,8 @@
         "source": "url",
         "url": "https://github.com/narailabs/claude-agentic-tdd.git"
       },
-      "description": "Enforced Test-Driven Development with Claude Agent SDK — deterministic TypeScript orchestrator with anti-cheat guardrails. Can't skip reviews (code for-loops), can't modify tests (SDK hooks), can't fabricate results (crypto checksums). Holistic final spec review catches cross-unit gaps.",
-      "version": "3.0.0",
+      "description": "Enforced Test-Driven Development with Claude Code agent teams. SKILL.md orchestrates TeamCreate/SendMessage/TeamDelete, TypeScript verification scripts enforce anti-cheat via Bash. Script output visible in conversation — cannot be fabricated.",
+      "version": "4.0.0",
       "author": {
         "name": "NarAI Labs"
       }
