@@ -28,7 +28,7 @@
         "url": "https://github.com/narailabs/claude-agentic-tdd.git"
       },
       "description": "Enforced Test-Driven Development with agent teams — honest tests, blind implementation, adversarial review. Structural enforcement gates, spec analysis for ambiguity detection, autonomous execution with front-loaded planning, and configurable parallelism.",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "author": {
         "name": "NarAI Labs"
       }
