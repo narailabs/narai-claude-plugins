@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   "plugins": [
     {
@@ -28,7 +28,7 @@
         "url": "https://github.com/narailabs/claude-agentic-tdd.git"
       },
       "description": "Enforced Test-Driven Development with Claude Code agent teams. Fullstack unit pipeline (backend+frontend in one unit), TypeScript verification scripts enforce anti-cheat via Bash with tsc compilation checks built-in. Script output visible in conversation — cannot be fabricated.",
-      "version": "5.0.0",
+      "version": "5.1.0",
       "author": {
         "name": "NarAI Labs"
       }
