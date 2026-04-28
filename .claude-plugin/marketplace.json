@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
-    "version": "2.5.0"
+    "version": "2.5.1"
   },
   "plugins": [
     {
@@ -54,7 +54,7 @@
         "ref": "main"
       },
       "description": "Read-only AWS connector — Lambda functions, RDS instances, S3 buckets, CloudWatch metrics, DynamoDB tables. Built on narai-primitives. JSON-envelope CLI + library API with approval gate and hardship logging.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -68,7 +68,7 @@
         "ref": "main"
       },
       "description": "Read-only Confluence connector — page retrieval, CQL search, space metadata. Built on narai-primitives.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -82,7 +82,7 @@
         "ref": "main"
       },
       "description": "Policy-gated read-only database connector — PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, DynamoDB, Oracle. Approval gate (allow / present / escalate / deny) per query kind, with curate-and-promote hardship logging.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -96,7 +96,7 @@
         "ref": "main"
       },
       "description": "Read-only GCP connector — Cloud Run services, Cloud SQL instances, Pub/Sub topics, Cloud Logging entries. Built on narai-primitives.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -110,7 +110,7 @@
         "ref": "main"
       },
       "description": "Read-only GitHub connector — repo info, code search, issues, pull requests, file retrieval, PR review comments. Built on narai-primitives.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -124,7 +124,7 @@
         "ref": "main"
       },
       "description": "Read-only Jira connector — JQL search, single-issue retrieval, project metadata. Built on narai-primitives.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
@@ -138,7 +138,7 @@
         "ref": "main"
       },
       "description": "Read-only Notion connector — page and database fetching, search, database queries with filters. Built on narai-primitives.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "NarAI Labs"
       }
