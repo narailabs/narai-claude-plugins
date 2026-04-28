@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
-    "version": "2.3.0"
+    "version": "2.4.0"
   },
   "plugins": [
     {
@@ -41,6 +41,104 @@
       },
       "description": "Retrofit self-improving feedback loops into existing skills or agents. Makes any skill/agent learn from usage and mistakes, improving itself every run — without ever changing its scope.",
       "version": "1.1.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "aws-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/aws-agent",
+        "ref": "main"
+      },
+      "description": "Read-only AWS connector — Lambda functions, RDS instances, S3 buckets, CloudWatch metrics, DynamoDB tables. Built on narai-primitives. JSON-envelope CLI + library API with approval gate and hardship logging.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "confluence-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/confluence-agent",
+        "ref": "main"
+      },
+      "description": "Read-only Confluence connector — page retrieval, CQL search, space metadata. Built on narai-primitives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "db-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/db-agent",
+        "ref": "main"
+      },
+      "description": "Policy-gated read-only database connector — PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, DynamoDB, Oracle. Approval gate (allow / present / escalate / deny) per query kind, with curate-and-promote hardship logging.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "gcp-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/gcp-agent",
+        "ref": "main"
+      },
+      "description": "Read-only GCP connector — Cloud Run services, Cloud SQL instances, Pub/Sub topics, Cloud Logging entries. Built on narai-primitives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "github-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/github-agent",
+        "ref": "main"
+      },
+      "description": "Read-only GitHub connector — repo info, code search, issues, pull requests, file retrieval, PR review comments. Built on narai-primitives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "jira-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/jira-agent",
+        "ref": "main"
+      },
+      "description": "Read-only Jira connector — JQL search, single-issue retrieval, project metadata. Built on narai-primitives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "notion-agent",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/notion-agent",
+        "ref": "main"
+      },
+      "description": "Read-only Notion connector — page and database fetching, search, database queries with filters. Built on narai-primitives.",
+      "version": "1.0.0",
       "author": {
         "name": "NarAI Labs"
       }
