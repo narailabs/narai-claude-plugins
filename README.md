@@ -17,6 +17,7 @@ claude plugin:marketplace add narailabs/narai-claude-plugins
 | [browser-qa](https://github.com/narailabs/claude-browser-qa) | AI-powered QA agent |
 | [agentic-tdd](https://github.com/narailabs/claude-agentic-tdd) | Enforced TDD with agent teams, structural enforcement gates, three-stage review |
 | [feedback-loop-builder](https://github.com/narailabs/claude-feedback-loop-builder) | Retrofit self-improving feedback loops into skills/agents |
+| [doc-wiki](https://github.com/narailabs/doc-wiki) | Documentation wiki generator + maintainer; ingests code/docs/external sources, ORM mapping, lint, query |
 
 ## Usage
 
