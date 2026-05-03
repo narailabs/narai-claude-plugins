@@ -1,6 +1,6 @@
 # Narai Plugins
 
-Claude Code plugin marketplace by [NarAI Labs](https://github.com/narailabs).
+Claude Code plugin marketplace by [NarAI](https://github.com/narailabs).
 
 ## Setup
 
