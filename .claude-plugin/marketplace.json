@@ -22,30 +22,6 @@
       }
     },
     {
-      "name": "agentic-tdd",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/narailabs/claude-agentic-tdd.git"
-      },
-      "description": "Enforced Test-Driven Development with Claude Code agent teams. Fullstack unit pipeline (backend+frontend in one unit), TypeScript verification scripts enforce anti-cheat via Bash with tsc compilation checks built-in. Script output visible in conversation — cannot be fabricated.",
-      "version": "5.2.1",
-      "author": {
-        "name": "NarAI Labs"
-      }
-    },
-    {
-      "name": "feedback-loop-builder",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/narailabs/claude-feedback-loop-builder.git"
-      },
-      "description": "Retrofit self-improving feedback loops into existing skills or agents. Makes any skill/agent learn from usage and mistakes, improving itself every run — without ever changing its scope.",
-      "version": "1.1.0",
-      "author": {
-        "name": "NarAI Labs"
-      }
-    },
-    {
       "name": "aws-agent",
       "source": {
         "source": "git-subdir",
