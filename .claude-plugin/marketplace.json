@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code — AI-powered development tools",
-    "version": "2.7.0"
+    "version": "2.8.0"
   },
   "plugins": [
     {
@@ -101,6 +101,34 @@
       },
       "description": "Read-only Jira connector — JQL search, single-issue retrieval, project metadata. Built on narai-primitives.",
       "version": "1.1.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "linear-connector",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/linear-connector",
+        "ref": "main"
+      },
+      "description": "Read + write Linear connector — 7 read actions (issue search, comments, projects) and 7 write actions (create/update/archive issues, comments, attachment links). GraphQL-based, policy-gated. Built on narai-primitives.",
+      "version": "1.0.0",
+      "author": {
+        "name": "NarAI Labs"
+      }
+    },
+    {
+      "name": "git-connector",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/narailabs/narai-primitives.git",
+        "path": "plugins/git-connector",
+        "ref": "main"
+      },
+      "description": "Pre-tool-use hook that gates risky git commands — push to main is denied; force-push, branch deletion, reset --hard, checkout --, clean -f all ask for confirmation. No agents or actions, hooks only. Rules can be selectively disabled via NARAI_GATE_DISABLE.",
+      "version": "1.0.0",
       "author": {
         "name": "NarAI Labs"
       }
