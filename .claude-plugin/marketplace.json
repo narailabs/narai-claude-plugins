@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "NarAI Labs plugins for Claude Code \u2014 AI-powered development tools",
-    "version": "2.9.1"
+    "version": "2.9.2"
   },
   "plugins": [
     {
@@ -43,7 +43,7 @@
         "path": "plugins/confluence-connector",
         "ref": "main"
       },
-      "description": "Read-only Confluence connector \u2014 page retrieval, CQL search, space metadata. Built on narai-primitives.",
+      "description": "Read + write Confluence connector \u2014 page retrieval and CRUD, comments, attachments, CQL search, space metadata. Policy-gated. Built on narai-primitives.",
       "version": "1.1.1",
       "author": {
         "name": "NarAI Labs"
@@ -113,7 +113,7 @@
         "path": "plugins/jira-connector",
         "ref": "main"
       },
-      "description": "Read-only Jira connector \u2014 JQL search, single-issue retrieval, project metadata. Built on narai-primitives.",
+      "description": "Read + write Jira connector \u2014 JQL search, issue CRUD, comments, transitions, attachments. Policy-gated. Built on narai-primitives.",
       "version": "1.1.1",
       "author": {
         "name": "NarAI Labs"
@@ -155,7 +155,7 @@
         "path": "plugins/notion-connector",
         "ref": "main"
       },
-      "description": "Read-only Notion connector \u2014 page and database fetching, search, database queries with filters. Built on narai-primitives.",
+      "description": "Read + write Notion connector \u2014 page and database fetching, search, database queries with filters, plus page/block/database-entry CRUD. Policy-gated. Built on narai-primitives.",
       "version": "1.1.1",
       "author": {
         "name": "NarAI Labs"
